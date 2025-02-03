@@ -1,19 +1,30 @@
 // import React from 'react'
-// import { NavLink } from "react"
 
-// import { NavLink } from "react-router-dom"
+import { HashLink as Link } from "react-router-hash-link"
 
 
 const Nav = () => {
   return (
     <div>
         <ul className=" max-sm:hidden flex  justify-between  gap-10 text-[20px] ">
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Portfolio</li>
-          <li>Resume</li>
-          <li>Contact</li>
+          <Link to="/#home">
+             Home
+          </Link>
+          <Link to="#About"> 
+            <li>About</li>
+          </Link>
+          <Link to="/#Services">
+            <li>Services</li>  
+          </Link>
+          <Link to="/#Portfolio">
+            <li>Portfolio</li>
+          </Link>
+          <Link to="/#Myexperince">
+            <li>Experience</li> 
+          </Link>
+          <Link to="/#Contact">
+            <li>Contact</li>
+          </Link>
         </ul>
     </div>
   )

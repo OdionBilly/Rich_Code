@@ -1,4 +1,5 @@
 import { Social } from "./components/Layout/Social"
+import {BrowserRouter} from "react-router-dom"
 import About from "./components/Ui/About"
 import { Contact } from "./components/Ui/Contact"
 import { Home } from "./components/Ui/Home"
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <div>
+        <BrowserRouter> 
         <Home/>
         <About/>
         <Services/>
@@ -18,6 +20,7 @@ function App() {
         <Myexperince/>
         <Contact/>
         <Social/>
+        </BrowserRouter>
       </div>
     </div>
    

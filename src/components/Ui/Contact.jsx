@@ -4,10 +4,10 @@
 
 export const Contact = () => {
   return (
-    <div className="bg-[#020617] text-[#6ec4ce] xl:py-20 xl:px-[80px]">
+    <div id="Contact" className="bg-[#020617] text-[#6ec4ce] xl:py-[150px] xl:px-[80px]">
       <div className="text-center">
         <h1 className="text-white text-[25px] font-bold">CONTACT <span className="text-[yellow]">ME</span></h1>
-        <p>Feel free to contact me for any inquiries or collaborations</p>
+        <p className="text-white py-5">Feel free to contact me for any inquiries or collaborations</p>
       </div>
       <div className="flex max-sm:flex-col justify-between xl:pt-[100px]">
         <div className="py-10 text-white">

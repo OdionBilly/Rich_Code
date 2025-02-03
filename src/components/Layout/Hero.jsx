@@ -2,7 +2,7 @@ import myimage from '../../assets/my.jpeg'
 
 export const Hero = () => {
   return (
-    <div className="bg-[#020617] pb-10 ">
+    <div className="bg-[#020617] py-20 ">
         <div className='flex max-sm:flex-col mb-[0.5px] pt-10'>
             <div className="w-[466px] xl:pt-[150px] text-[#6B7280] xl:mx-[158px] max-sm:mx-10 py-[50px]">
                <h2 className="text-[16px] font-thin py-4 text-[yellow] max-sm:ml-[100px]">Hello Welcome</h2>

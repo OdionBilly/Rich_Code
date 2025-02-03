@@ -1,8 +1,8 @@
 
 export const Experiance = () => {
   return (
-    <div className="bg-[#111827] text-[#6B7280] xl:py-10">
-        <h1 className="text-[35px] font-bold xl:px-[80px] pt-10 text-white "> MY <span className="text-[yellow]">EXPERIENCE</span> </h1>
+    <div id="Myexperince" className="bg-[#111827] text-[#6B7280] xl:py-[100px]">
+        <h1 className="text-[35px] font-bold xl:px-[80px] xl:pt-10 xl:pb-5 text-white "> MY <span className="text-[yellow]">EXPERIENCE</span> </h1>
         <p className=" xl:w-[450px] xl:mx-[80px] py-5">Over the years collaborating with other Tech Enthusiast on 
             Various Project and Open source projecst 
             has been a great experience for me. I have been able to learn and grow my skills in various 

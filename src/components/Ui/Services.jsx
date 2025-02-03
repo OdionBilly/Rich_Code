@@ -6,7 +6,7 @@ import { IoLogoAndroid } from "react-icons/io"
 
 export const Services = () => {
   return (
-    <div className="bg-[#111827] max-w-full xl:py-[100px] ">
+    <div id="Services" className="bg-[#111827] max-w-full xl:py-[100px] ">
       <div>
         <div className="xl:px-[80px] max-sm:px-5 py-10 ">
           <h1 className="text-4xl font-bold text-white pb-[20px]">MY  <span className="text-[yellow]">SERVICES </span></h1>
@@ -16,7 +16,7 @@ export const Services = () => {
         </div>
 
         {/* services flex sections */}
-        <div className="flex max-sm:flex-col gap-[50px]  xl:px-[80px] max-sm:px-5">
+        <div className="flex max-sm:flex-col gap-[50px]  xl:px-[80px] max-sm:px-5 xl:pb-10">
           <div className=" bg-[#020617] ">
               <p className="text-[yellow] xl:text-[50px] xl:mx-[180px] pt-4"><IoLogoAndroid/></p>
               <h1 className="text-white  mt-5 text-center"> MOBILE APPS</h1>
