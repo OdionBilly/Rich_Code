@@ -1,12 +1,13 @@
 // import React from 'react'
 
 import { HashLink as Link } from "react-router-hash-link"
+import { MdMenu } from "react-icons/md";
 
 
 const Nav = () => {
   return (
     <div>
-        <ul className=" max-sm:hidden flex  justify-between  gap-10 text-[20px] ">
+        <ul className=" max-sm:hidden max-lg:hidden flex  justify-between align-baseline items-center gap-10 text-[20px] ">
           <Link to="/#home">
              Home
           </Link>
@@ -26,6 +27,9 @@ const Nav = () => {
             <li>Contact</li>
           </Link>
         </ul>
+        <div>
+          <MdMenu className="xl:hidden text-[#f5f6f6] cursor-pointer text-[40px]"/>
+        </div>
     </div>
   )
 }

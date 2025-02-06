@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <div>
+      <div className="bg-[#020617] overflow-hidden">
         <BrowserRouter> 
         <Home/>
         <About/>
