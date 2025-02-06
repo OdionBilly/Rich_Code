@@ -10,14 +10,14 @@ export const Contact = () => {
         <p className="text-white py-5">Feel free to contact me for any inquiries or collaborations</p>
       </div>
       <div className="flex max-sm:flex-col max-lg:flex-col justify-between max-lg:px-10  xl:pt-[100px]">
-        <div className="py-10 text-white max-sm:px-10">
+        <div className="py-10 text-white max-sm:px-0">
           <p> <span className="text-[yellow]">Address _ </span> Nairobi, Kenya </p>
           <p className="py-7"> <span className="text-[yellow]">phone _ </span> +254717444530 </p>
           <p> <span className="text-[yellow]">Email _ </span> odionfiona@gmail.com </p>
           <p className="py-7"> <span className="text-[yellow]">website _ </span> odionfiona@gmail.com </p>
         </div>
         {/* forms */}
-        <div className=" w-[450px] max-sm:px-5 ">
+        <div className=" w-[450px] max-sm:px-0 ">
             <div className="">
               <input type="text" name="" id=""placeholder="Name"
                className="h-10 bg-[#1F2937] px-5" />

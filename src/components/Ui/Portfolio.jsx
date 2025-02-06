@@ -6,7 +6,7 @@ import portimg1 from "../../assets/port1.jpg"
 
 export const Portfolio = () => {
   return (
-    <div id="Portfolio" className="bg-[#020617] xl:py-[200px] max-sm:py-10">
+    <div id="Portfolio" className="bg-[#020617] xl:py-[200px] max-sm:py-[60px]">
       <div className="px-[80px]">
         <h1 className="text-white text-[25px] font-bold py-5 text-center">MY  <span className="text-[yellow]"> PORTFOLIO</span></h1>
         <p className="text-[#6B7280] xl:w-[400px] text-center xl:mx-[450px] xl:mb-[80px]">Below are some of my projects that have worked on, And project i have collaborated on.

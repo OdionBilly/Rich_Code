@@ -3,7 +3,7 @@ import Aboutimage from '../../assets/background.jpg';
 
 const About = () => {
     return (
-        <div id='About' className="bg-[#020617] flex max-xl:flex-col max-lg:gap-10 max-sm:flex-col-reverse  max-sm:gap-10 p-2 xl:py-20 max-sm:py-10 xl:pt-[100px] max-sm:pt-0">
+        <div id='About' className="bg-[#020617] flex max-xl:flex-col max-lg:gap-10 max-sm:flex-col-reverse  max-sm:gap-10 p-2 xl:py-20 max-sm:py-10 xl:pt-[129px] max-sm:pt-10">
             <img src={Aboutimage} alt="" className='w-[850px] xl:h-[650px] max-lg:px-5' />
             <div className=' xl:w-1/3  xl:mx-[60px] max-lg:px-5 max-sm:px-4 xl:mt-[10px] max-lg:pb-10' >
                <h1 className="text-4xl font-bold py-5 mx-[10px] pt-10 text-white max-sm:text-center "> ABOUT <span className='text-[Yellow]'>ME</span> </h1>
