@@ -13,7 +13,7 @@ export const Header = () => {
 
   return (
     <div>
-      <header 
+      <header
        className="fixed top-0 opacity-50 bg-[#020617] flex justify-between
        text-white max-sm:py-5 max-lg:py-10 max-sm:px-5 max-lg:px-10 xl:px-40 xl:py-10 w-full mb-10 ">
         <div className="text-[30px] w-[100px] my-0 flex gap-2 items-center ">
@@ -22,7 +22,7 @@ export const Header = () => {
         </div>
         <div className="">
         <ul className=" max-sm:hidden max-lg:hidden flex  justify-between gap-10 text-[20px] ">
-          <Link to="/#home">
+          <Link to="#Hero">
              Home
           </Link>
           <Link to="#About"> 

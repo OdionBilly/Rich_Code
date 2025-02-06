@@ -18,7 +18,7 @@ export const Portfolio = () => {
           <img src={port3img} alt="" className="xl:w-[450px] xl:h-[250px]" /> 
           <div className="flex  gap-10 py-4 text-[white]">
            <p className="">AudioPhile E-commerce  </p>
-           <Link to="/https://audiophiles-e-commerce.vercel.app/" className="pointer">Link</Link>
+           <a href="https://audiophiles-e-commerce-git-main-odion-efionayis-projects.vercel.app/"target="-blank">Link</a>
           </div>
         </div>
         <div>
