@@ -1,7 +1,6 @@
 // import React from 'react'
 import port3img from "../../assets/AudioPhile.png"
 import ngoimage from "../../assets/ngo.png"
-import portimg1 from "../../assets/port1.jpg"
 import foodimage from "../../assets/port4.png"
 
 export const Portfolio = () => {
