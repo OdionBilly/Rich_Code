@@ -1,7 +1,8 @@
 // import React from 'react'
 import port3img from "../../assets/AudioPhile.png"
-import port2img from "../../assets/port2.jpg"
+import ngoimage from "../../assets/ngo.png"
 import portimg1 from "../../assets/port1.jpg"
+import foodimage from "../../assets/port4.png"
 
 export const Portfolio = () => {
   return (
@@ -21,17 +22,17 @@ export const Portfolio = () => {
           </div>
         </div>
         <div>
-          <img src={port2img} alt=""className="xl:w-[450px] xl:h-[250px]" />
+          <img src={foodimage} alt=""className="xl:w-[450px] xl:h-[250px]" />
           <div className="text-[white] flex gap-10 py-4">
-            <p className="">Streamer Agency </p>  
-            <p className="">Link</p>
+            <p className="">G-Cousines food</p> 
+            <a href="https://dee-app-gold.vercel.app/"target="-blank">Link</a>
           </div>
         </div>
         <div>
-          <img src={portimg1} alt=""className="xl:w-[450px] xl:h-[250px]" />
+          <img src={ngoimage} alt=""className="xl:w-[450px] xl:h-[250px]" />
           <div className="text-[white] flex gap-10 py-4">
-            <p className="">Designo Agency </p>
-            <p className="pointer">Link</p>
+            <p className="">Light Your Nation .NGO</p>
+            <a href="https://light-your-nation-xry292frj-odion-efionayis-projects.vercel.app/"target="-blank">Link</a>
           </div>
         </div>
       </div>
