@@ -14,7 +14,7 @@ export const Contact = () => {
           <p> <span className="text-[yellow]">Address _ </span> Nairobi, Kenya </p>
           <p className="py-7"> <span className="text-[yellow]">phone _ </span> +254717444530 </p>
           <p> <span className="text-[yellow]">Email _ </span> odionfiona@gmail.com </p>
-          <p className="py-7"> <span className="text-[yellow]">website _ </span> odionfiona@gmail.com </p>
+          <p className="py-7"> <span className="text-[yellow]">website _ </span>....</p>
         </div>
         {/* forms */}
         <div className=" w-[450px] max-sm:px-0 ">
@@ -22,9 +22,10 @@ export const Contact = () => {
               <input type="text" name="" id=""placeholder="Name"
                className="h-10 bg-[#1F2937] px-5" />
             </div>
-            <div className="py-5 ">
-               <input type="text" name="" id=""placeholder="Message"
-               className="w-[400px] max-sm:w-[328px] h-[150px] bg-[#1F2937] px-5 pt-[-70px]" /> 
+            <div className="py-5">
+               <textarea  name="" id=""placeholder="Message" className="h-20 bg-[#1F2937] xl:w-[380px] max-sm:w-[328px] px-5 pt-2">
+
+               </textarea>
             </div>
             <div className=" ">
               <button className="px-4 py-2 text-[#000000] hover:bg-[#3899af] bg-[yellow]">Contact Me</button>

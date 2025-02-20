@@ -21,7 +21,7 @@ const About = () => {
                     When I'm not coding, you can find me exploring new places, reading tech blogs, or working on open-source projects.
                </p>
                <p>
-                     Feel free to reach out if you'd like to collaborate on a project or just want to chat about web development!
+                     Feel free to reach out if you would like to collaborate on a project or just want to chat about web development!
                </p>
                </div>
 
