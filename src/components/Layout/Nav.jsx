@@ -1,5 +1,6 @@
 // import React from 'react'
-import { HashLink as Link } from "react-router-hash-link"
+// import { HashLink as Link } from "react-router-hash-link"
+import {Link} from "react-scroll"
 import { MdMenu,MdOutlineClose } from "react-icons/md";
 import { useState } from "react";
 
@@ -12,22 +13,22 @@ const Nav = () => {
     <div> 
     <div> 
         <ul className=" max-sm:hidden max-lg:hidden flex  justify-between align-baseline items-center gap-10 text-[20px] ">
-          <Link to="/#home">
+          <Link to="/#home"spy={true} smooth={true} offset={50} duration={1000}>
              Home
           </Link>
-          <Link to="#About"> 
+          <Link to="#About" spy={true} smooth={true} offset={50} duration={1000}> 
             <li>About</li>
           </Link>
-          <Link to="/#Services">
+          <Link to="/#Services" spy={true} smooth={true} offset={50} duration={1000}>
             <li>Services</li>  
           </Link>
-          <Link to="/#Portfolio">
+          <Link to="/#Portfolio" spy={true} smooth={true} offset={50} duration={1000}>
             <li>Portfolio</li>
           </Link>
-          <Link to="/#Myexperince">
+          <Link to="/#Myexperince" spy={true} smooth={true} offset={50} duration={10}>
             <li>Experience</li> 
           </Link>
-          <Link to="/#Contact">
+          <Link to="/#Contact" spy={true} smooth={true} offset={50} duration={1000}>
             <li>Contact</li>
           </Link>
         </ul>

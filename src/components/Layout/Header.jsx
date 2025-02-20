@@ -1,6 +1,7 @@
 // import React from 'react'
 import { FaCode } from "react-icons/fa";
 import { HashLink as Link } from "react-router-hash-link"
+// import {Link,} from "react-scroll"
 import { MdMenu,MdOutlineClose } from "react-icons/md";
 import { useState } from "react";
 
@@ -21,23 +22,26 @@ export const Header = () => {
          <span>{<FaCode/>} </span>
         </div>
         <div className="">
-        <ul className=" max-sm:hidden max-lg:hidden flex  justify-between gap-10 text-[20px] ">
-          <Link to="#Hero">
+        <ul 
+           className=" max-sm:hidden max-lg:hidden flex  justify-between gap-10 text-[20px] ">
+          <Link 
+             to="#Home" spy={true} smooth={true} offset={50} duration={500}>
              Home
           </Link>
-          <Link to="#About"> 
+          <Link 
+            to="#About" spy={true} smooth={true} offset={50} duration={500}> 
             <li>About</li>
           </Link>
-          <Link to="/#Services">
+          <Link to="/#Services" spy={true} smooth={true} offset={50} duration={500}>
             <li>Services</li>  
           </Link>
-          <Link to="/#Portfolio">
+          <Link to="/#Portfolio" spy={true} smooth={true} offset={50} duration={500}>
             <li>Portfolio</li>
           </Link>
-          <Link to="/#Myexperince">
+          <Link to="/#Myexperince" spy={true} smooth={true} offset={50} duration={500}>
             <li>Experience</li> 
           </Link>
-          <Link to="/#Contact">
+          <Link to="/#Contact" spy={true} smooth={true} offset={50} duration={500}>
             <li>Contact</li>
           </Link>
         </ul>
@@ -52,22 +56,22 @@ export const Header = () => {
        {isOpen && (
           <div className=" w-full flex items-center ">
             <ul className="flex max-sm:flex-col max-lg:flex-col gap-2 px-5 text-[15px]  text-[#f5f6f6] max-sm:mt-[80px] max-lg:mt-[120px] pb-5">
-              <Link to="/#home">
+              <Link to="/#home" spy={true} smooth={true} offset={50} duration={500}>
                 Home
               </Link>
-              <Link to="#About">
+              <Link to="#About" spy={true} smooth={true} offset={50} duration={500}>
                 About
               </Link>
-              <Link to="/#Services">
+              <Link to="/#Services" spy={true} smooth={true} offset={50} duration={500}>
                 Services
               </Link>
-              <Link to="/#Portfolio">
+              <Link to="/#Portfolio" spy={true} smooth={true} offset={50} duration={500}>
                 Portfolio
               </Link>
-              <Link to="/#Myexperince">
+              <Link to="/#Myexperince" spy={true} smooth={true} offset={50} duration={500}>
                 Experience
               </Link>
-              <Link to="/#Contact">
+              <Link to="/#Contact" spy={true} smooth={true} offset={50} duration={500}>
                 Contact
               </Link>
             </ul>

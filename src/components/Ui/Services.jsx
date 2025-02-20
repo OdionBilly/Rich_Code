@@ -5,10 +5,11 @@ import { IoLogoAndroid } from "react-icons/io"
 // import { FaMobileAlt } from "react-icons/fa"
 
 export const Services = () => {
+
   return (
-    <div id="Services" className="bg-[#111827] max-w-full xl:py-[100px] max-sm:pt-[70px] max-lg:py-10">
-      <div>
-        <div className="xl:px-[80px] max-sm:px-5 max-lg:px-10 py-5 ">
+    <div id="Services" className="bg-[#111827] max-w-full xl:pt-[150px] xl:py-[100px] max-sm:pt-[70px] max-lg:py-10">
+      <div >
+        <div className="xl:px-[80px] max-sm:px-5 max-lg:px-10 py-5">
           <h1 className="text-4xl font-bold text-white pb-[20px]">MY  <span className="text-[yellow]">SERVICES </span></h1>
           <p className="xl:w-[400px] text-[#6B7280]">      
           </p>
