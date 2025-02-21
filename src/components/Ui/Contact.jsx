@@ -20,15 +20,15 @@ export const Contact = () => {
         <div className=" w-[450px] max-sm:px-0 ">
             <div className="">
               <input type="text" name="" id=""placeholder="Name"
-               className="h-10 bg-[#1F2937] px-5" />
+               className="h-10 bg-[#1F2937] px-2" />
             </div>
             <div className="py-5">
-               <textarea  name="" id=""placeholder="Message" className="h-20 bg-[#1F2937] xl:w-[380px] max-sm:w-[328px] px-5 pt-2">
+               <textarea  name="" id=""placeholder="Message" className="h-20 bg-[#1F2937] xl:w-[380px] max-sm:w-[328px] px-2 pt-2">
 
                </textarea>
             </div>
             <div className=" ">
-              <button className="px-4 py-2 text-[#000000] hover:bg-[#3899af] bg-[yellow]">Contact Me</button>
+              <button className="px-4 py-1 text-[#000000] hover:bg-[#3899af] bg-[yellow]">Contact Me</button>
             </div>
         </div>
       </div>
