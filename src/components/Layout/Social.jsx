@@ -11,8 +11,10 @@ export const Social = () => {
         <div className="flex justify-center gap-10 py-10 ">
             <p className="hover:bg-[yellow] text-[20px] cursor-pointer "><FiFacebook/></p>
             <p className="hover:bg-[yellow] text-[20px] cursor-pointer "><FaInstagram/></p>
-            <p className="hover:bg-[yellow] text-[20px] cursor-pointer "><FaLinkedin/></p>
-            <p className="hover:bg-[yellow] text-[20px] cursor-pointer "><FaGithub/></p>
+            <a href="https://github.com/OdionBilly"target="-blank" className="hover:bg-[yellow] text-[20px] cursor-pointer ">
+                 <FaGithub/>
+            </a>
+            <a href="https://www.linkedin.com/in/odion-efionayi/" target="-blank" className="hover:bg-[yellow] text-[20px] cursor-pointer"><FaLinkedin/> </a>
             <p className="hover:bg-[yellow] text-[20px] cursor-pointer "><FaTwitter/></p>
         </div>
 
