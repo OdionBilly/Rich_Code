@@ -4,6 +4,7 @@ import { HashLink as Link } from "react-router-hash-link"
 // import {Link,} from "react-scroll"
 import { MdMenu,MdOutlineClose } from "react-icons/md";
 import { useState } from "react";
+import logoimage from '../../assets/rich code services Logo (1).png'
 
 
 
@@ -18,8 +19,10 @@ export const Header = () => {
        className="fixed top-0 opacity-50 bg-[#020617] flex justify-between
        text-white max-sm:py-5 max-lg:py-10 max-sm:px-5 max-lg:px-10 xl:px-40 xl:py-10 w-full mb-10 ">
         <div className="text-[30px] w-[100px] my-0 flex gap-2 items-center ">
-         <h1 className=" "> Dion</h1>
-         <span>{<FaCode/>} </span>
+         <h1 className=" ">
+          <img src={logoimage} alt="" />
+         </h1>
+         {/* <span>{<FaCode/>} </span> */}
         </div>
         <div className="">
         <ul 
