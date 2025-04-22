@@ -11,7 +11,10 @@ export const Services = () => {
       <div >
         <div className="xl:px-[80px] max-sm:px-5 max-lg:px-10 py-5">
           <h1 className="text-4xl font-bold text-white pb-[20px]">MY  <span className="text-[yellow]">SERVICES </span></h1>
-          <p className="xl:w-[400px] text-[#6B7280]">      
+          <p className="xl:w-[400px] text-[#6B7280]"> 
+            A web development, UI/UX design coach passionate about solving problems through creative technology ,
+            equipping young minds with the skills to thrive in the digital world.
+            I specialize in creating user-friendly and visually appealing websites and applications.    
           </p>
         </div>
 

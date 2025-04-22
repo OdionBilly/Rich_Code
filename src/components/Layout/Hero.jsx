@@ -1,4 +1,4 @@
-// import myimage from '../../assets/my.jpeg'
+import myimage from '../../assets/my.jpeg'
 
 export const Hero = () => {
   return (
@@ -16,7 +16,7 @@ export const Hero = () => {
                 </button>
             </div>
             <div className='mb-10 w-[500px] max-sm:px-5 max-sm:mt-10'>
-             {/* <img src={myimage} alt="" className='Xl:w-[400px] max-lg:w-[330px] max-sm:w-[350px] xl:ml-[100px] rounded-lg'/>   */}
+             <img src={myimage} alt="" className='Xl:w-[400px] max-lg:w-[330px] max-sm:w-[350px] xl:ml-[100px] rounded-lg'/>  
             </div>
         </div>
     </div>
