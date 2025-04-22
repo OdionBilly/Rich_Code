@@ -1,5 +1,5 @@
 // import React from 'react'
-import { FaCode } from "react-icons/fa";
+// import { FaCode } from "react-icons/fa";
 import { HashLink as Link } from "react-router-hash-link"
 // import {Link,} from "react-scroll"
 import { MdMenu,MdOutlineClose } from "react-icons/md";
