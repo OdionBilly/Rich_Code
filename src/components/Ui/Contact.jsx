@@ -1,4 +1,5 @@
 // import React from 'react'
+import Contactimage from '../../assets/backgound contact img.jpg'
 
 
 
@@ -11,6 +12,8 @@ export const Contact = () => {
       </div>
       <div className="flex max-sm:flex-col max-lg:flex-col justify-between max-lg:px-10  xl:pt-[100px]">
         <div className="py-10 text-white max-sm:px-0">
+          {/* <p><img src={Contactimage} alt="" /></p> */}
+  
           <p> <span className="text-[yellow]">Address _ </span> Nairobi, Kenya </p>
           <p className="py-7"> <span className="text-[yellow]">phone _ </span> +254717444530 </p>
           <p> <span className="text-[yellow]">Email _ </span> odionfiona@gmail.com </p>
