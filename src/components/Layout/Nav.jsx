@@ -29,7 +29,7 @@ const Nav = () => {
             <li>Experience</li> 
           </Link>
           <Link to="/#Contact" spy={true} smooth={true} offset={50} duration={1000}>
-            <li>Contact</li>
+            <li>contact</li>
           </Link>
         </ul>
         <div

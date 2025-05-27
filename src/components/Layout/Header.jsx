@@ -16,15 +16,15 @@ export const Header = () => {
   return (
     <div>
       <header
-       className="fixed top-0 opacity-50 bg-[#020617] flex justify-between
-       text-white max-sm:py-5 max-lg:py-10 max-sm:px-5 max-lg:px-10 xl:px-40 xl:py-10 w-full mb-10 ">
+       className="fixed top-0 opacity-50 bg-[#020617] flex justify-between items-center
+       text-white max-sm:py-5 max-lg:py-7 max-sm:px-5 max-lg:px-10 xl:px-40 xl:py-10 w-full mb-10 ">
         <div className="text-[30px] w-[100px] my-0 flex gap-2 items-center ">
          <h1 className=" ">
-          <img src={logoimage} alt="" />
+          <img src={logoimage} alt="" className="max-sm:w-[50px] rounded-[50px] max-lg:w-[60px]" />
          </h1>
          {/* <span>{<FaCode/>} </span> */}
         </div>
-        <div className="">
+        <div className="group">
         <ul 
            className=" max-sm:hidden max-lg:hidden flex  justify-between gap-10 text-[20px] ">
           <Link 
@@ -42,7 +42,7 @@ export const Header = () => {
             <li>Portfolio</li>
           </Link>
           <Link to="/#Myexperince" spy={true} smooth={true} offset={50} duration={500}>
-            <li>Experience</li> 
+            <li className="">Experience</li> 
           </Link>
           <Link to="/#Contact" spy={true} smooth={true} offset={50} duration={500}>
             <li>Contact</li>
@@ -57,8 +57,8 @@ export const Header = () => {
       </header>
        {/* mobile menu */}
        {isOpen && (
-          <div className=" w-full flex items-center ">
-            <ul className="flex max-sm:flex-col max-lg:flex-col gap-2 px-5 text-[15px]  text-[#f5f6f6] max-sm:mt-[80px] max-lg:mt-[120px] pb-5">
+          <div className=" w-full flex items-center px-[70%] ">
+            <ul className="flex max-sm:flex-col max-lg:flex-col gap-2 px-5 text-[15px]  text-[#f5f6f6] max-sm:mt-[80px] max-lg:mt-[120px]">
               <Link to="/#home" spy={true} smooth={true} offset={50} duration={500}>
                 Home
               </Link>
